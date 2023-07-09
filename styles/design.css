@@ -1,0 +1,22 @@
+.container-1{
+    display: flex;
+    background-color: bisque;
+    padding: 5px;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-style:italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("../images/download\ \(3\).jpg");
+   
+}
+
