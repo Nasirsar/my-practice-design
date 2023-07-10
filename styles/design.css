@@ -1,22 +1,112 @@
 .container-1{
     display: flex;
-    background-color: bisque;
+    background-color:gray;
     padding: 5px;
     justify-content: space-around;
+    align-items: center;
 }
 .logo{
     display: flex;
-    margin-top: 10px;
+    height: 70px;
+    width: 50px;
+    gap: 20px;
+    align-items: center;
+
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap:30px;
     font-style:italic;
+    color: black;
 }
 .banner-container{
     height: 100vh;
-    background-image: url("../images/download\ \(3\).jpg");
+    background-image: url("../images/download\ \(3\).jpg"),
+     linear-gradient(rgba(199, 72, 72, 0.3),rgba(20, 3, 3, 0.4));
+     background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
    
 }
+.primary{
+    color: red;
+}
+.title{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    color: wheat;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+    
+}
+.growth{
+    margin-top: 10px;
+    height: 100vh;
+    background-image: url("../images/download\ \(4\).jpg"),
+     linear-gradient(rgba(199, 72, 72, 0.8),rgba(19, 15, 15, 0.4));
+     background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    color: wheat;
+    display: flex;
+    align-items: center;
+}
+.years{
+    color: red;
+}
+.icon{
+    width: 80px;
+}
+.boxes{
+    width: 130px;
+    height: 145px;
+    padding: 55px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+.des-data{
+    width: 50%;
+    padding: 5px;
+}
+.highlights{
+    padding: 5px;
+}
+.all-box-2{
+    display: flex;
+    gap: 5px;
+    margin-top:10px;
+    margin-right: 10px;
+}
+.autor-img{
+    width: 50px;
+    height: 70px;
+    border-radius: 50px;
+}
+.author-img-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-img{
+    display: flex;
+    gap: 20px;
+}
+
 
